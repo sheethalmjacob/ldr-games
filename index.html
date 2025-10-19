@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick Breaker & Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Game Section -->
+        <div class="game-section">
+            <canvas id="gameCanvas"></canvas>
+        </div>
+
+        <!-- Notes Section -->
+        <div class="notes-section">
+            <h2>My Game Notes</h2>
+            <div class="note-input">
+                <textarea id="noteText" placeholder="Write your thoughts here..."></textarea>
+                <button id="addNote">Add Note</button>
+            </div>
+            <div class="notes-container" id="notesContainer">
+                <!-- Notes will be added here dynamically -->
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+    <script src="notes.js"></script>
+</body>
+</html>
